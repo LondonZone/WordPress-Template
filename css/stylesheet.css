@@ -1,0 +1,195 @@
+
+@import "http://fonts.googleapis.com/css?family=Roboto+Condensed:300";
+@import "http://fonts.googleapis.com/css?family=Raleway:400,200";
+@import "http://fonts.googleapis.com/css?family=Telegrafico";
+/*Pull in bootstrap's stylesheet */
+@import URL(bootstrap.css); 
+
+
+/**  My Custom Styles
+    CSS extraction begins 
+**/ 
+header{
+    margin: 0;
+    padding-top: 20px;
+    margin-left: 10px;
+   
+}
+        
+#nav-bar a{ 
+    font-family: Raleway;
+    color: #37403f;
+    font-size: 24px;
+    font-weight: 400;
+    width: 351px;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 2px;
+    padding: .5em;
+    border: 0 none;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out 0s;
+
+  
+}
+/** Centered TFO Logo **/
+#nav-bar img{
+    width: 306px;
+    height: 150px;
+    margin-right:auto;
+    margin-left: auto;
+    position: absolute;
+    text-align: center;
+    margin-left: 125px; 
+}
+/** 
+#nav-bar img{
+   position: absolute;
+   width: 306px;
+   height: 150px;
+   right: 50%;
+   left: 50%;
+   margin-left: -150px; 
+   margin-right: 20px;
+   margin-top: 20px;
+
+}
+
+#nav-bar img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto 0 auto ;
+}
+
+**/
+#nav-bar a:hover{
+    animation: 0.5s ease-out 0s normal none 1 shiftUp;
+    animation: 0.5s ease-out 0s normal none 1 shiftDown;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #777777;
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+}
+
+#nav-social{
+    left:20px;
+    top:32px;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+
+#nav-social img{
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    padding: 0px;
+     
+}
+
+#nav-social img:hover{
+     box-shadow: 7px 7px 5px #888;
+    
+}
+    
+#nav-search{
+    margin-right:5px;
+    overflow: hidden;
+    
+}
+#nav-search input{
+    max-width: 30%;
+    width: 203px;
+    height: 38px;
+    top: 20px;
+    right: 260px;
+    position:fixed;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+
+#src-btn{
+    
+}
+
+#header-titles{
+    float:right;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+#header-titles h1,h2{
+    font-family: Raleway;
+    color: #37403f;
+    font-size: 24px; 
+    font-weight: 400;
+    width: 389px;
+    height: 10px;
+    
+}
+
+
+#header-box{
+    width: 393px;
+    height: 374px;
+    border:1px solid black;
+    background-color:#37403f;
+    float:right;
+    margin-top: 110px;
+    margin-right: -398px;
+    display:inline-block;
+    overflow:scroll;
+    top: 149px;
+    left: 950px;
+    
+}
+#header-box h1{
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 20px; /* Approximation due to font substitution */
+    font-weight: 400;
+    width: 246px;
+    height: 16px;
+    top:50%;
+    left:50%;
+    margin: 25px 0 0 65px;
+    text-align: center;
+
+}
+
+@media all and (min-width: 50% ) and (max-width: 480px) {
+  #header-box { display: none
+            
+    
+                }
+    
+@media (min-width: @screen-sm-min) {
+    #header-box { display: none }
+    
+    
+}
+    
+    
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  #header-box { display: none }
+/*#nav-social img{
+    width: 42px;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: 13px;
+    */
+}
+    
+/*.left a{
+    margin-left: 15px;
+    padding-top: 20px;
+    
+}*/
+
+    

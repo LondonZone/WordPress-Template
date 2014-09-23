@@ -1,5 +1,4 @@
-<?php get_header(); ?>
- <head>
+<?php get_header(); ?><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,28 +7,22 @@
     <!-- stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/Carousel_files/carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="/tweetslider/style.css" />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">  </script>
     <script type="text/javascript" src="/tweetslider/jquery.tweetslider.min.js"></script>  
     <script type="text/javascript">
-        $(document).ready(function() {
-            $("#twitter-box").tweetSlider({
-                //set options here in option:value  format i.e
-                hash: 'mysearch'
-                username: "ForeignObserve"
-            })
-        })
     </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
-    <script src="working_files/js/myscript.js"></script>
+    <script src="js/myscript.js"></script>
     <script src="test_files/nav-content.js"></script>
     <link href="css/index_styles.css" rel="stylesheet">
  </head>
-			<div id="content">
+			
+ <div id="content">
 
 				<div id="inner-content" class="wrap cf">
 
